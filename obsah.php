@@ -1,12 +1,12 @@
 <?php
 // vykreslení menu
-file_get_contents "https://raw.githubusercontent.com/bedjan/web/main/hlavicka.php";
+include(dirname(__SERVER__) . 'https://raw.githubusercontent.com/bedjan/web/main/hlavicka.php';
 ?>
 <?php
 // vykreslení menu
-file_get_contents "https://raw.githubusercontent.com/bedjan/web/main/stred.php";
+include(dirname(__SERVER__) . 'https://raw.githubusercontent.com/bedjan/web/main/stred.php';
 ?>
 <?php
 // vykreslení menu
-file_get_contents "https://raw.githubusercontent.com/bedjan/web/main/paticka.php";
+include(dirname(__SERVER__) . 'https://raw.githubusercontent.com/bedjan/web/main/paticka.php';
 ?>
