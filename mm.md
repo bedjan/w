@@ -235,13 +235,14 @@
 
 
 ### Linux mpv config
-
+```
 mpv --ytdl-format=mp4 --ontop=yes --save-position-on-quit=yes --geometry=35%+0-50 --player-operation-mode=pseudo-gui  –fs=no –cache-secs=180 –demuxer-readahead-secs=0 –ytdl-raw-options=no-check-certificate=
 
 mpv --ytdl-format=worst --ontop=yes --save-position-on-quit=yes --geometry=35%+0-50 --player-operation-mode=pseudo-gui  –fs=no –cache-secs=180 –demuxer-readahead-secs=0 –ytdl-raw-options=no-check-certificate=
+```
 
 ### Linux install mpv a vlc
-
+```
 sudo apt-get install mpv vlc python-pip python3-pip;pip install --upgrade pip;pip install --upgrade pip3 && xterm -title Youtube-dl-update -hold -e "pip install --upgrade youtube-dl" && echo "vypis_instalaci_pres_pip";pip list
-
+```
 
