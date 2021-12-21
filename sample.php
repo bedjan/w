@@ -20,6 +20,18 @@ pre {
   color: white;
   margin-left: 2px;
 } 
+ul {
+  color: white;
+  margin-left: 2px;
+} 
+li {
+  color: white;
+  margin-left: 2px;
+} 
+code {
+  color: white;
+  margin-left: 2px;
+} 
 h1 {
   color: white;
   margin-left: 2px;
