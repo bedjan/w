@@ -2,13 +2,58 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <base target="_blank">
+<style>
+body {
+  background-color: black;
+}
+a {
+  color: white;
+  margin-left: 2px;
+} 
+p {
+  color: white;
+  margin-left: 42px;
+} 
+pre {
+  color: white;
+  margin-left: 2px;
+} 
+h1 {
+  color: white;
+  margin-left: 2px;
+} 
+h2 {
+  color: white;
+  margin-left: 2px;
+} 
+h3 {
+  color: white;
+  margin-left: 2px;
+} 
+h4 {
+  color: white;
+  margin-left: 2px;
+} 
+h5 {
+  color: white;
+  margin-left: 2px;
+} 
+form {
+  color: white;
+  margin-left: 2px;
+} 
+</style>
+
 <title>Osobní stránky</title>
 </head>
 
 <body>
 
-
+<?php
+print("<h1>Osobní stránky</h1>");
+?>
 
 <p>
 <a href="index.php?sekce=index">Úvodní strana</a>
