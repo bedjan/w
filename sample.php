@@ -14,7 +14,7 @@ a {
 } 
 p {
   color: white;
-  margin-left: 42px;
+  margin-left: 2px;
 } 
 pre {
   color: white;
