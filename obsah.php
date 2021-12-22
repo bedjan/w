@@ -7,6 +7,7 @@
 <style>
 body {
   background-color: black;
+  font-family: cursive;
 }
 a {
   color: white;
@@ -44,18 +45,40 @@ form {
   color: white;
   margin-left: 2px;
 } 
+
+
 </style>
+
 
 <title>Osobní stránky</title>
 </head>
 
 <body>
 
+
 <?php
 print("<h1>Osobní stránky</h1>");
-// vykreslení menu
-include "https://raw.githubusercontent.com/bedjan/web/main/hlavicka.php";
 ?>
+
+
+<form method="get" action="https://duckduckgo.com/?q=%s">
+
+<table border="0" align="left" cellpadding="0">
+<tr><td>
+<input type="text"   name="q" size="25"
+maxlength="255" value="" />
+<input type="submit" value="Duckduckgo" /></td></tr>
+<tr><td align="left" style="font-size:75%">
+
+</td></tr></table>
+
+</form>
+
+
+
+
+
+<br />
 
 <p>
 <a href="index.php?sekce=index">Úvodní strana</a>
@@ -70,37 +93,11 @@ include "https://raw.githubusercontent.com/bedjan/web/main/hlavicka.php";
 <a href="index.php?sekce=polstina">Polština</a>
 </p>
 
-
-<hr>
-
-<form method="get" action="http://www.google.com/search">
-
-<table border="0" align="left" cellpadding="0">
-<tr><td>
-<input type="text"   name="q" size="25"
-maxlength="255" value="" />
-<input type="submit" value="Google" /></td></tr>
-<tr><td align="left" style="font-size:75%">
-
-</td></tr></table>
-
-</form>
-<p><br /></p>
-<form method="get" action="https://duckduckgo.com/?q=%s">
-
-<table border="0" align="left" cellpadding="0">
-<tr><td>
-<input type="text"   name="q" size="25"
-maxlength="255" value="" />
-<input type="submit" value="Duckduckgo" /></td></tr>
-<tr><td align="left" style="font-size:75%">
-
-</td></tr></table>
-
-</form>
 <br />
 
 
+
+<hr>
 
 <?php
 error_reporting(E_ALL ^ E_NOTICE);
