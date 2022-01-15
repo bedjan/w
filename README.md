@@ -1,6 +1,8 @@
 # w
 
-
+<code>
+   
+   
 <?php
 require_once ('Slimdown.php');
 switch($sekce) {
@@ -26,3 +28,6 @@ echo Slimdown::render($html);
    break;
 }
 ?> 
+
+   
+   </code>
