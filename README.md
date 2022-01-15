@@ -1,6 +1,6 @@
 # w
 
-<code>
+
    
    
 <?php
@@ -30,4 +30,4 @@ echo Slimdown::render($html);
 ?> 
 
    
-   </code>
+
